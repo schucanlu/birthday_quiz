@@ -1,0 +1,89 @@
+{
+  "page_title": "Happy Birthday!",
+  "page_icon": "🎂",
+
+  "theme": {
+    "primary_color": "#e75480",
+    "background_color": "#fff5f8"
+  },
+
+  "settings": {
+    "max_attempts": 2,
+    "show_correct_answer": true
+  },
+
+  "welcome": {
+    "title": "Bon anniversaire ! 🎉",
+    "images": ["images/welcome.jpg"],
+    "text": "Aujourd'hui est un grand jour ! 💖<br>La plus belle personne de tout l'univers fête ses 30 ans ! <br>Pour fêter ça, je t'ai préparé un petit quiz qui te permettra d'enfin découvrir ta surprise ! <br>Attention ! Seulement deux essais permis par question !",
+    "button_label": "Voir la première question💝"
+  },
+
+  "questions": [
+    {
+      "type": "single_choice",
+      "question": "Quel est le plus beau jour de l'année ?",
+      "image": "images/calendrier.jpg",
+      "image_width": 600,
+      "options": ["Noël", "Nouvel An", "Le 22 octobre", "Tous les jours sont beaux avec toi 😍"],
+      "answer": "Le 22 octobre",
+      "hint": "Il n'y a pas de piège",
+      "correct_message": "Hahaha, bravo ! Tu connais la date de ton anniversaire",
+      "wrong_message": "As-tu oublié quel jour on est ?",
+      "explanation": "Et oui, même si tous les jours avec toi sont magnifiques, le plus beau reste aujourd'hui (pour l'instant 😉)"
+    },
+    {
+      "type": "text",
+      "question": "Encore une facile, quelle est la plus belle couleur d'yeux ? 👀",
+      "image": "images/yeux.jpg",
+      "answer": "Bleu",
+      "alternatives": ["bleue"],
+      "hint": "Miroir, mon beau miroir",
+      "correct_message": "He oui, le mieux, c'est le bleu ! Et les tiens sont le plus bel exemple.",
+      "wrong_message": "Moi je trouve que les tiens sont les plus beaux !",
+      "answer_image": "images/oeil_bleu.jpg"
+    },
+    {
+      "type": "number",
+      "question": "30 ans, c'est une belle étape ! Mais en fait, combien de jours as-tu vécu (avec aujourd'hui)?",
+      "image": "images/calculatrice.jpg",
+      "image_width": 600,
+      "answer": 10958,
+      "tolerance": 1,
+      "step": 1,
+      "hint": "Tu as le droit à une calculatrice.",
+      "explanation": "He oui, ça fait pas mal ! Attentions aux années bisextile",
+      "wrong_message": "Essaie encore !"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Quelles sont tes plus grandes qualités ?",
+      "options": ["L'humilité", "La générosité", "La gentillesse", "L'altruisme", "L'intelligence", "Il y en a trop pour toutes les lister"],
+      "answer": ["L'humilité", "La générosité", "La gentillesse", "L'altruisme", "L'intelligence", "Il y en a trop pour toutes les lister"],
+      "correct_message": "Si je dois faire la liste, j'en ai au moins jusqu'à tes 40 ans 😀",
+      "wrong_message": "Ne sois pas modeste !"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Maintenant, une dernière question sur nous ! Dans quels pays nous sommes nous embrassés ?",
+      "image": "images/monde.jpg",
+      "image_width": 400,
+      "options": ["Suisse", "France", "Italie", "Croatie", "Allemagne", "Portugal", "Espagne"],
+      "answer": ["Suisse", "France", "Italie", "Croatie", "Allemagne", "Portugal"],
+      "correct_message": "Un indice se trouve dans la réponse..... ou pas ! 🤔",
+      "wrong_message": "Réfléchis bien !"
+    }
+  ],
+
+  "final": {
+    "title": "Bravo ! Tu est trop forte ! 🥳",
+    "show_score": true,
+    "text_before_reveal": "Tu mérites une belle récompense ! Prête ? 😄",
+    "reveal_button_label": "Voir la suprise ✨",
+    "final_answer": "🎁 Prépare tes valises – le week-end prochain, on va à Madrid !<br> Tu trouveras tous les détails dans le pdf ci-joint !",
+    "images": ["images/madrid.jpg"],
+    "text_after_reveal": "Bon anniversaire ! Je t'aime pour toujours ❤️",
+    "effect": "balloons",
+    "allow_restart": true
+  }
+}
